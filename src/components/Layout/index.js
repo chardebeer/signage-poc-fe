@@ -66,14 +66,13 @@ const Layout = () => {
     <GridContainer>
       <Header>      <Announcements />
 </Header>
-      <MainContent>
-        <Slideshow />
-        {/* More main content widgets */}
-      </MainContent>
       <SideBar>
         <EventList />
         <Weather />
       </SideBar>
+      <MainContent>
+        <Slideshow />
+      </MainContent>
       <Logo/>
     </GridContainer>
   );

@@ -22,9 +22,8 @@ const StyledIframe = styled.iframe`
   border-radius: 10px;
 `;
 
-
 const Slideshow = () => {
-  const videoId = 'roCxauVSAEs'; // YouTube video ID
+  const videoId = 'BsIQ5Fiw9-4'; // YouTube video ID
 
   const videoSrc = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}&mute=1&controls=0`;
 
