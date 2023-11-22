@@ -17,7 +17,7 @@ const GridContainer = styled.div`
 
 const Header = styled.header`
   grid-column: span 12;
-  background: #333;
+  background: #0E284B;
   color: #fff;
   padding: 10px 20px;
   text-align: center;
@@ -41,7 +41,7 @@ const SideBar = styled.aside`
 const Footer = styled.footer`
   grid-column: span 12;
   position: absoloute;
-  background: #333;
+  background: #0E284B;
   color: #fff;
   padding: 10px 20px;
   text-align: center;
