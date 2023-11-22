@@ -4,6 +4,7 @@ import Announcements from '../Announcements';
 import Weather from '../Weather';
 import Slideshow from '../Slideshow';
 import EventList from '../EventList';
+import Logo from '../Global';
 // Other imports for different widgets would go here
 
 const GridContainer = styled.div`
@@ -73,6 +74,7 @@ const Layout = () => {
         <EventList />
         <Weather />
       </SideBar>
+      <Logo/>
     </GridContainer>
   );
 };
