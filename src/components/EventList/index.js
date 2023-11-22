@@ -14,11 +14,11 @@ const EventsContainer = styled.div`
 const EventItem = styled.div`
   padding: 10px;
   margin: 5px 0;
-  background-color: ${({ isCurrent , hasPassed }) => (isCurrent ? '#00A651' : || hasPassed ? '#BF1E2E' : '#1899D2')};
+  background-color: ${({ isCurrent }) => (isCurrent ? '#00A651' : '#1899D2')};
   color: ${({ hasPassed }) => (hasPassed ? '#f1f1f1' : '#ffffff')};
   font-weight: ${({ isCurrent }) => (isCurrent ? 'bold' : 'normal')};
   opacity: ${({ hasPassed }) => (hasPassed ? '0.5' : '1')};
-  text-decoration: ${({ isCurrent, hasPassed }) => (isCurrent ? 'underline' || hasPassed ? 'line-through' : 'none')};
+  text-decoration: ${({hasPassed }) => (hasPassed ? 'line-through' : 'none')};
 `;
 
 const EventsWidget = () => {
