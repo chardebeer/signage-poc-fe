@@ -26,10 +26,8 @@ const EventsWidget = () => {
   const [events, setEvents] = useState([
     { id: 1, title: 'Morning Meet & Greet', startTime: '09:00', endTime: '10:00' },
     { id: 2, title: 'Fun Activity 1', startTime: '12:00', endTime: '13:00' },
-    { id: 3, title: 'Demo Presentation', startTime: '13:00', endTime: '14:00' },
-    { id: 4, title: 'Lucnh', startTime: '14:00', endTime: '15:00' },
-    { id: 5, title: 'Project Deadline', startTime: '15:00', endTime: '16:00' },
-    { id: 6, title: 'Expo', startTime: '18:00', endTime: '19:00' },
+    { id: 3, title: 'Track 5 Presentation', startTime: '13:00', endTime: '15:00' },
+    { id: 5, title: 'Expo', startTime: '15:00', endTime: '16:00' },
     // ... other events
   ]);
 
