@@ -45,10 +45,10 @@ const AnnouncementText = styled.div`
 const Announcements = () => {
   // Dummy data for the announcements
   const announcements = [
-    'Welcome to Campus Digital Signage!',
-    'Today\'s guest lecture: "The Future of AI"',
-    'Library hours extended until 11 PM this week.',
-    'Don\'t miss tonight\'s game at the stadium!',
+    'Welcome to our Open Day!',
+    'Next Presentation starts at 15:00 in Room 2',
+    'Re-Registration Now Open',
+    'Don\'t miss out on Early Bird Discounts',
   ];
 
   // State to keep track of the current announcement index

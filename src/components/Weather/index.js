@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const WeatherWidget = styled.div`
   background: #fff;
+  border: 1px solid #1899D2;
   padding: 10px;
   max-width:calc(100%-10px);
   max-height: 200px;
@@ -14,13 +15,13 @@ const WeatherWidget = styled.div`
 
 const Temperature = styled.h2`
   font-size: 2.5rem;
-  color: #ff903f;
+  color: #0E284B;
   margin: 0;
 `;
 
 const Condition = styled.p`
   font-size: 1.2rem;
-  color: #555;
+  color: #1899D2;
   margin: 5px 0 20px;
 `;
 
@@ -31,9 +32,9 @@ const WeatherIcon = styled.img`
 const Weather = () => {
   // Static data to simulate a real widget
   const staticWeatherData = {
-    temperature: '19°C',
-    condition: 'Partly Cloudy',
-    icon: 'https://openweathermap.org/img/wn/02d.png' // You can use an actual weather icon URL here
+    temperature: '29°C',
+    condition: 'Mostly Cloudy',
+    icon: 'https://openweathermap.org/img/wn/04d.png' // You can use an actual weather icon URL here
   };
 
   return (

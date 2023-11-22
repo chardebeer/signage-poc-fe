@@ -14,8 +14,8 @@ const EventsContainer = styled.div`
 const EventItem = styled.div`
   padding: 10px;
   margin: 5px 0;
-  background-color: ${({ isCurrent }) => (isCurrent ? '#b8de6f' : 'none')};
-  color: ${({ hasPassed }) => (hasPassed ? '#737373' : '#000')};
+  background-color: ${({ isCurrent }) => (isCurrent ? '#EF5DF2' : 'none')};
+  color: ${({ hasPassed }) => (hasPassed ? '#70C8EF' : '#0E284B')};
   font-weight: ${({ isCurrent }) => (isCurrent ? 'bold' : 'normal')};
   opacity: ${({ hasPassed }) => (hasPassed ? '0.5' : '1')};
 `;
@@ -24,10 +24,11 @@ const EventsWidget = () => {
   // Define the events with a start and end time
   const [events, setEvents] = useState([
     { id: 1, title: 'Morning Meet & Greet', startTime: '09:00', endTime: '10:00' },
-    { id: 2, title: 'Presentation 1', startTime: '12:00', endTime: '13:00' },
-    { id: 2, title: 'Demo Presentation', startTime: '13:00', endTime: '15:00' },
-    { id: 3, title: 'Project Deadline', startTime: '15:00', endTime: '16:00' },
-    { id: 4, title: 'Expo', startTime: '18:00', endTime: '19:00' },
+    { id: 2, title: 'Fun Activity 1', startTime: '12:00', endTime: '13:00' },
+    { id: 3, title: 'Demo Presentation', startTime: '13:00', endTime: '14:00' },
+    { id: 4, title: 'Lucnh', startTime: '14:00', endTime: '15:00' },
+    { id: 5, title: 'Project Deadline', startTime: '15:00', endTime: '16:00' },
+    { id: 6, title: 'Expo', startTime: '18:00', endTime: '19:00' },
     // ... other events
   ]);
 
