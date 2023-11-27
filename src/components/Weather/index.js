@@ -32,15 +32,14 @@ const WeatherIcon = styled.img`
 const Weather = () => {
   // Static data to simulate a real widget
   const staticWeatherData = {
-
+/* 
     temperature: '17°C',
     condition: 'Rainy',
-    icon: 'http://openweathermap.org/img/wn/09n@2x.png' // You can use an actual weather icon URL here
+    icon: 'http://openweathermap.org/img/wn/09n@2x.png' // You can use an actual weather icon URL here */
 
-/* 
     temperature: '29°C',
     condition: 'Mostly Cloudy',
-    icon: 'https://openweathermap.org/img/wn/04d.png' // You can use an actual weather icon URL here */
+    icon: 'https://openweathermap.org/img/wn/04d.png' // You can use an actual weather icon URL here
   };
 
   return (
