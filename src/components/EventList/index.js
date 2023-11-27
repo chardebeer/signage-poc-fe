@@ -27,8 +27,8 @@ const EventsWidget = () => {
     { id: 1, title: 'Morning Meet & Greet', startTime: '09:00', endTime: '10:30' },
     { id: 2, title: 'Track 1 Presentation', startTime: '11:00', endTime: '12:00' },
     { id: 3, title: 'Track 5 Presentation', startTime: '13:00', endTime: '15:00' },
-   // { id: 4, title: 'Lunch & Campus Tour', startTime: '15:00', endTime: '16:00' },
-  //  { id: 5, title: 'Expo', startTime: '16:00', endTime: '17:00' },
+   { id: 4, title: 'Lunch & Campus Tour', startTime: '15:00', endTime: '16:00' },
+  { id: 5, title: 'Expo', startTime: '16:00', endTime: '17:00' },
     // ... other events
   ]);
 
