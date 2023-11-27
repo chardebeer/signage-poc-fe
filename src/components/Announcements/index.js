@@ -46,10 +46,22 @@ const Announcements = () => {
   // Dummy data for the announcements
   const announcements = [
     'Welcome to our Open Day!',
-    'Next Presentation starts at 15:00 in Room 2',
+  //  'Next Presentation starts at 15:00 in Room 2',
     'Re-Registration Now Open',
     'Don\'t miss out on Early Bird Discounts',
+    // 'Join our Evening Gala at 18:00 in the Main Hall',
+   'Free Campus Tours Available at the Information Desk',
+    // 'Library Exhibition: "History of Our University" - All Day',
+    // 'Reminder: Scholarship Applications Due Next Friday',
+    // 'Career Services Workshop at 14:00 in Room 5',
+    // 'Student Council Elections: Voting Closes at 16:00',
+    // 'Alumni Meet and Greet in the Alumni Lounge at 17:00',
+    // 'Health and Wellness Seminar in Room 8 at 11:00',
+    // 'Art Show Opening in the Student Gallery at 19:00',
+    // 'Join our Sustainability Initiative! Meeting at 12:30 in Room 3',
+    // 'Founders Day Celebration - All Events Free Today!'
   ];
+  
 
   // State to keep track of the current announcement index
   const [currentAnnouncement, setCurrentAnnouncement] = useState(0);

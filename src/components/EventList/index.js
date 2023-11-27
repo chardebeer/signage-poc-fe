@@ -24,10 +24,11 @@ const EventItem = styled.div`
 const EventsWidget = () => {
   // Define the events with a start and end time
   const [events, setEvents] = useState([
-    { id: 1, title: 'Morning Meet & Greet', startTime: '09:00', endTime: '15:00' },
-    { id: 2, title: 'Fun Activity 1', startTime: '15:00', endTime: '19:00' },
-    { id: 3, title: 'Track 5 Presentation', startTime: '20:00', endTime: '21:00' },
-    { id: 5, title: 'Expo', startTime: '21:00', endTime: '23:00' },
+    { id: 1, title: 'Morning Meet & Greet', startTime: '09:00', endTime: '10:30' },
+    { id: 2, title: 'Track 1 Presentation', startTime: '11:00', endTime: '12:00' },
+    { id: 3, title: 'Track 5 Presentation', startTime: '13:00', endTime: '15:00' },
+   // { id: 4, title: 'Lunch & Campus Tour', startTime: '15:00', endTime: '16:00' },
+  //  { id: 5, title: 'Expo', startTime: '16:00', endTime: '17:00' },
     // ... other events
   ]);
 
